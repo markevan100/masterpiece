@@ -14,10 +14,11 @@ ActiveRecord::Schema.define(version: 2019_02_21_230614) do
 
   create_table "comments", force: :cascade do |t|
     t.string "name"
+    t.text "participation"
     t.string "score"
-    t.string "country"
+    t.text "test_c"
     t.text "write"
-    t.text "add"
+    t.string "rec"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

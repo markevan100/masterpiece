@@ -2,14 +2,16 @@
   <%= form_for @comment do |f| %>
     <%= f.label :name %>
     <%= f.text_field :name %>
+    <%= f.label :participation %>
+    <%= f.text_area :participation %>
     <%= f.label :score %>
     <%= f.text_field :score %>
-    <%= f.label :country %>
-    <%= f.text_field :country %>
+    <%= f.label :test_c %>
+    <%= f.text_area :test_c %>
     <%= f.label :write %>
     <%= f.text_area :write %>
-    <%= f.label :add %>
-    <%= f.text_area :add %>
+    <%= f.label :rec %>
+    <%= f.text_area :rec %>
 
     <%= f.submit %>
 
