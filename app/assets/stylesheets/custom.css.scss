@@ -1,0 +1,8 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.jumbotron {
+  background-image: asset-url('write.jpg');
+  background-size: cover;
+}
