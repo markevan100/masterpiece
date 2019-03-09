@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+How to do drag and drop functionality:
+https://mdbootstrap.com/plugins/jquery/draggable/
+https://codepen.io/rasx/pen/PwJdqp
