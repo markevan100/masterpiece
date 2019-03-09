@@ -1,0 +1,10 @@
+<% flash.each do |message_type, message_content| %>
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+  </div>
+  <div class="toast-body">
+    <%= message_content %>
+  </div>
+  </div>
+
+<% end %>
