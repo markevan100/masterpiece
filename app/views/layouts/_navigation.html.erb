@@ -1,14 +1,35 @@
-<div class="container">
+<!-- <div class="container">
   <nav class="navbar navbar-light" style="background-color: #CBEED4;">
     <div class="container-fluid">
       <div class="navbar-header">
           <%= link_to "The Masterpiece: comment writing made easy!", comments_path, class: "navbar-brand" %>
           <%= link_to "New Comment", new_comment_path %>
-          
+
           <% if logged_in? %>
             You're logged in as: <%= current_user.username %>
           <% end %>
       </div>
     </div>
   </nav>
+</div> -->
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">masterpiece</a>
+          </div>
+          <div id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#">how it works</span></a>
+              </li>
+              <li class="dropdown">
+                <a href="#">log in</span></a>
+                </li>
+            </ul>
+          </div><!--/.nav-->
+        </div><!--/.container-fluid -->
+      </nav>
+
 </div>
