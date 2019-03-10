@@ -9,26 +9,16 @@
 .container{
   background-color: yellow;
   width: auto;
+  border: none;
 }
 
 .container-fluid{
   background-color: black;
+  border: none;
 }
 
 .footer{
   background-color: black;
-  color: white;
-}
-
-.btn btn-primary btn-lg{
-  color: white !important;
-}
-
-.dropdown{
-  color: white;
-}
-
-.navbar-brand{
   color: white;
 }
 
@@ -44,4 +34,18 @@ p{
 
 #button{
   background-color: white;
+  border: none;
+  font-family: helvetica;
+}
+
+#menu_item{
+  color: white;
+  font-family: helvetica;
+  font-size: 10pt;
+}
+
+#logo{
+  color: white;
+  font-family: helvetica;
+  
 }
