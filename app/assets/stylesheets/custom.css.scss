@@ -3,6 +3,45 @@
 @import "bootstrap";
 
 .jumbotron {
-  background-image: asset-url('write.jpg');
-  background-size: cover;
+  background-color: yellow;
+}
+
+.container{
+  background-color: yellow;
+  width: auto;
+}
+
+.container-fluid{
+  background-color: black;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.btn btn-primary btn-lg{
+  color: white !important;
+}
+
+.dropdown{
+  color: white;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+h1{
+  font-family: helvetica;
+  font-size: 100pt;
+  font-weight: 600;
+}
+
+p{
+  font-family: helvetica;
+}
+
+#button{
+  background-color: white;
 }
