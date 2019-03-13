@@ -1,29 +1,26 @@
-<h1 align="center">Log in</h1>
-
+<div class="jumbotron2" align="center">
+  <h1 id="second_text">let's head to your blackboard</h1>
     <%= form_for(:session, :html => {class: "form-horizontal", role: "form"}, url: login_path) do |f| %>
       <div align="center">
         <div class="form-group">
           <div class="control-label col-md-4">
-            <%= f.label :username %>
           </div>
           <div class="col-md-4">
-            <%= f.text_field :username, class: 'form-control', placeholder: 'Enter username' %>
+            <%= f.text_field :username, class: 'form-control', placeholder: 'enter username' %>
           </div>
-        </div>
-        <div class="form-group">
-          <div class="control-label col-md-4">
-            <%= f.label :password %>
-          </div>
-          <div class="col-md-4">
-            <%= f.password_field :password, class: 'form-control', autocomplete: "off", placeholder: 'Enter password' %>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-md-offset-1 col-md-4">
-            <%= f.submit "Log in", class: 'btn btn-primary btn-lg pull-right' %>
-          </div>
-        </div>
-      <% end %>
-      <div class="col-xs-4 col-xs-offset-4">
       </div>
+      <div class="form-group">
+        <div class="control-label col-md-4">
+        </div>
+          <div class="col-md-4">
+            <%= f.password_field :password, class: 'form-control', autocomplete: "off", placeholder: 'enter password' %>
+          </div>
+        </div>
+        <div class="form-group">
+          <div>
+            <%= link_to "login", login_path, class: "btn btn-primary btn-lg", role: "button", id:"button" %>
+          </div>
+        </div>
     </div>
+        <% end %>
+        </div>

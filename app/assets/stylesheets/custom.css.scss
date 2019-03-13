@@ -2,14 +2,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.jumbotron {
-  background-color: yellow;
+/* whole doc overrides */
+body {
+  margin: 0 !important;
 }
 
 .container{
-  background-color: yellow;
-  width: auto;
+  width: 100%;
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container-fluid{
@@ -17,35 +19,79 @@
   border: none;
 }
 
-.footer{
-  background-color: black;
-  color: white;
-}
-
-h1{
-  font-family: helvetica;
-  font-size: 100pt;
-  font-weight: 600;
-}
-
 p{
   font-family: helvetica;
+  color: white;
 }
 
 #button{
   background-color: white;
   border: none;
   font-family: helvetica;
+  color: black;
+  margin: 20px;
+}
+
+#button:hover{
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+/* navigation */
+.navbar{
+  border-radius: 0;
+  margin-bottom: 0;
+  border: none;
 }
 
 #menu_item{
   color: white;
   font-family: helvetica;
-  font-size: 10pt;
+  font-size: 16pt;
 }
 
 #logo{
   color: white;
   font-family: helvetica;
-  
+  font-size: 24pt;
+}
+
+/* home page */
+.jumbotron {
+  background-color: #56ce84;
+  margin: 0;
+  border-radius: 0 !important;
+}
+
+#main_text{
+  font-family: helvetica;
+  font-weight: 600;
+  font-size: 100pt;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* new page */
+.jumbotron2 {
+  background-color: #f46e42;
+  margin: 0;
+  border-radius: 0 !important;
+  padding: 60px;
+}
+
+#second_text{
+  font-family: helvetica;
+  font-weight: 600;
+  font-size: 50pt;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* footer */
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 15px;
 }
